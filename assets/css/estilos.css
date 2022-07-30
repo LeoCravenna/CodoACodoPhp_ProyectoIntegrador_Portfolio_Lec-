@@ -11647,6 +11647,16 @@ html {
   position: sticky;
 }
 
+.responsiveTable th {
+  width: 200px;
+  overflow: auto;
+}
+
+.responsiveTable tr {
+  word-wrap: break-word;
+  word-break: break-word;
+}
+
 .responsiveTable td {
   border-bottom: 3px solid #131A22;
 }
@@ -11657,7 +11667,6 @@ html {
 }
 
 .btn_modificar {
-  /*width: 120px;*/
   width: 45px;
   margin-right: 2px;
   margin-bottom: 2px;
@@ -11669,7 +11678,6 @@ html {
 }
 
 .btn_eliminar {
-  /*width: 120px;*/
   width: 45px;
   margin-left: 2px;
   margin-bottom: 2px;
@@ -11681,6 +11689,11 @@ html {
 }
 
 @media (max-width: 990px) {
+  .responsiveTable {
+    width: 100%;
+    font-size: 0.9em;
+  }
+
   .btn_modificar {
     margin-right: 0px;
     margin-bottom: 5px;
@@ -11703,6 +11716,8 @@ html {
     flex-direction: column;
     border: 0.15rem solid currentColor;
     padding: 1em;
+    word-wrap: break-word;
+    word-break: break-word;
     /*margin-bottom: 1em;*/
   }
 
@@ -11714,6 +11729,7 @@ html {
     border: none;
     display: flex;
     justify-content: center;
+    align-items: center;
     text-align: justify;
   }
 

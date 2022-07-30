@@ -139,7 +139,7 @@
                                 <!--<td scope="row"><?php #echo $proyecto['id'];?></td> -->
                                 <td data-titulo="Nombre:"><?php echo $proyecto['nombre'];?></td>
                                 <td><img width="200" height="120" src="../assets/imagenes/<?php echo $proyecto['imagen'];?>" alt="">  </td>
-                                <td data-titulo="Descripción:" class="texto"><?php echo $proyecto['descripcion'];?></td>
+                                <td data-titulo="Descripción:"><?php echo $proyecto['descripcion'];?></td>
                                 <td data-titulo="Url:"><?php echo $proyecto['url'];?></td>
                                 <td>
                                     <a name="modificar" id="modificar" class="btn btn-warning btn-sm px-3 btn_modificar" href="?modificar=<?php echo $proyecto['id'];?>"><i class="fas fa-pen fa-lg"></i></a>
